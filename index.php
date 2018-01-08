@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>test</title>
   <script src='OSC.js'></script>
-  <link href="canvas.css"rel="stylesheet" type="text/css">
+ 
   </head>
   <body bgcolor="blue">
       
