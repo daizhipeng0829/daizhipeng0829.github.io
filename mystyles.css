@@ -1,3 +1,9 @@
+html { 
+    min-width: 1800px;
+    background-color: #fdfcf8;
+    overflow:scroll;
+    overflow-x:hidden;
+    }
 body{
 	text-align:center;
 	margin-left:auto;
@@ -5,50 +11,68 @@ body{
     border:1px solid rgb(221, 18, 35)
 }
 div{
-    background-image: url(https://github.com/daizhipeng0829/daizhipeng0829.github.io/images/c.jpg);
+    background-image: none;
     background-repeat: no-repeat;
-    background-size: none;
+    background-size:auto;
     border:1px solid rgb(70, 223, 32);
-    margin:0 auto;
+    
     background-position:center; 
+    
    }
+div.all{
+    margin: 0 auto;
+	padding: 0;
+	border: 0;
+	width: 1800px;
+    text-align: center;
+    border:1px solid rgb(241, 226, 7);
+    margin:0 auto;
+}
 div.one{
-    position: absolute;
-    left: 0px;
-    width: 600px;    
+    float: left;
+	margin: 0 0 0 0;
+	padding: 0;
+	border: 0;
+	width: 600px;   
 }
 div.two{
-    position: absolute;
-    left: 600px;
-    width: 600px; 
+    float: left;
+    margin: 0;
+    padding: 0 0 0 0;
+    border: 0;
+    width: 600px;
 }
 div.three{
-    position: absolute;
-    left: 1200px;
-    width: 600px; 
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 600px;
 }
 ul{
     list-style-type: none;
     margin:0;
-    padding:0;
+    padding:20px;
     overflow:hidden;
+    width: 1800px;
 }
 li{
     display:inline;
+    
 }
 a:link,a:visited
 {
-    /*  display:block;
-     width:120px;*/
+    width: 450px;
     font-weight:bold;
     color:#FFFFFF;
     background-color:#bebebe;
-   text-align:center;
-    padding:4px;
+   text-align:center; 
+   padding:150px;
     text-decoration:none;
     text-transform:uppercase;
 }
 a:hover,a:active{
     background-color:#cc0000;
 }
+
 
