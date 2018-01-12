@@ -1,0 +1,54 @@
+body{
+	text-align:center;
+	margin-left:auto;
+    margin-right:auto;
+    border:1px solid rgb(221, 18, 35)
+}
+div{
+    background-image: url(http://127.0.0.1/daizhipeng0829.github.io/images/c.jpg);
+    background-repeat: no-repeat;
+    background-size: none;
+    border:1px solid rgb(70, 223, 32);
+    margin:0 auto;
+    background-position:center; 
+   }
+div.one{
+    position: absolute;
+    left: 0px;
+    width: 600px;    
+}
+div.two{
+    position: absolute;
+    left: 600px;
+    width: 600px; 
+}
+div.three{
+    position: absolute;
+    left: 1200px;
+    width: 600px; 
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li{
+    display:inline;
+}
+a:link,a:visited
+{
+    /*  display:block;
+     width:120px;*/
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#bebebe;
+   text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+a:hover,a:active{
+    background-color:#cc0000;
+}
+
