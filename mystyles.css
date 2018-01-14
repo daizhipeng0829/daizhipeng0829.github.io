@@ -1,4 +1,7 @@
 html { 
+    background: url(images/html.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     min-width: 1800px;
     background-color: #fdfcf8;
     overflow:scroll;
@@ -60,7 +63,7 @@ div.three{
     border:1px solid rgb(241, 226, 7);
 }
 div.hear_l{
-    background-image:url(https://github.com/daizhipeng0829/daizhipeng0829.github.io/blob/master/images/b.jpg),url(https://github.com/daizhipeng0829/daizhipeng0829.github.io/blob/master/images/b.jpg);
+    background-image:url(images/b.jpg),url(images/b.jpg);
     background-position: left,right;
    
 }
